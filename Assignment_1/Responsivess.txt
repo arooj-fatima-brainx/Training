@@ -1,0 +1,27 @@
+Responsive Font Size:
+	font-size:10vw
+
+
+    RESPONSIVENESS
+    To create a responsive website, add the following <meta> tag to all your web pages:
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    If the CSS width property is set to 100%, the image will be responsive and scale up and down:
+    If the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size:
+    
+        Show Different Images Depending on Browser Width
+    <!--picture>
+      <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+      <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+      <!---Always specify an <img> element as the last child element of the <picture> element. --->
+      
+         Responsive Text Size
+    The text size can be set with a "vw" unit, which means the "viewport width".
+
+    t-size:10vw">Hello World</h1>
+<img src="workplace.jpg" style="max-width:100%;height:auto;">
+<!--picture>
+  <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+  <!---Always specify an <img> element as the last child element of the <picture> element. --->

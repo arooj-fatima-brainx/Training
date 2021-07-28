@@ -1,0 +1,195 @@
+body
+{	
+	height: 100%;
+	width:100%;
+	background: transparent url('img/background-illustration.svg') no-repeat 0% 0% padding-box;
+	opacity: 1;
+	font-family: Poppins;
+	align-content: center;
+	align-self: center;
+	background-size: cover;
+	background-position: center;
+	margin:auto;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+.logo
+{
+	margin-top: 0.9%;
+	margin-left: 5%;
+}
+
+.huntBtn
+{
+	width: 142px;
+	height: 50px;
+	background: #FED45C 0% 0% no-repeat padding-box;
+	box-shadow: 5px 5px 6px #00000021;
+	border-radius: 6px;
+	opacity: 1;
+	font: normal normal 600 15px/23px Poppins, bold;
+	letter-spacing: 0.75px;
+	color: #0C2242;
+
+	margin-right: 10%;
+	margin-top: 2%;
+}
+
+
+.welcome
+{
+	
+	text-align: center;
+	font: normal normal 600 18px/27px Poppins;
+	letter-spacing: 5.4px;
+	color: #EB6874;
+	text-transform: uppercase;
+	opacity: 0.8;
+	
+}
+
+.insHunting
+{
+	text-align: center;
+	font: normal normal bold 40px/50px Poppins;
+	letter-spacing: 2px;
+	color: #0C2242;
+	opacity: 1;
+	font-weight: bolder;
+}
+
+.myhr
+{
+	border: 3px solid #0C22426B;
+	width: 41px;
+height: 0px;
+
+}
+
+.card
+{
+	width: 449px;
+	height: 460px;
+	background: #F2ECEA 0% 0% no-repeat padding-box;
+	box-shadow: 5px 5px 10px #00000029;
+	border: 1px solid #7070702E;
+	border-radius: 20px;
+	opacity: 1;
+	margin-left: auto;
+	margin-right: auto;
+	align-self: center;
+	align-content: center;
+	
+}
+
+.lbl1
+{
+	top: 25px;
+left: 45px;
+text-align: center;
+font: normal normal bold 12px/13px Poppins;
+letter-spacing: 0.6px;
+color: #EB6874;
+opacity: 1;
+position:relative;
+background-color: #F2ECEA;
+z-index: 1;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.inp1
+{
+	width: 366px;
+	height: 57px;
+	border: 1px solid #707070;
+	border-radius: 20px;
+	opacity: 0.17;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	
+	/*text-align: left;
+	font: normal normal 300 10px/13px Poppins;
+	letter-spacing: 0.5px;
+	color: #9C9C9C;*/
+}
+
+
+.butn
+{
+	
+width: 370px;
+height: 62px;
+background: #EB6874 0% 0% no-repeat padding-box;
+box-shadow: 5px 5px 10px #00000029;
+border: 1px solid #70707045;
+border-radius: 20px;
+opacity: 1;
+
+text-align: center;
+font: normal normal 600 15px/24px Poppins;
+letter-spacing: 3px;
+color: #FFFFFF;
+margin-left: 39px;
+cursor:pointer;
+}
+
+
+  li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+
+
+
+  
+
+.myHunter
+{
+	top: 69px;
+left: 1131px;
+width: 84px;
+height: 21px;
+color: #0C2242;
+opacity: 1;
+}
+
+  
+.inp2
+{
+	top: 344px;
+left: 525px;
+width: 190px;
+height: 15px;
+text-align: left;
+font: normal normal 300 10px/13px Poppins;
+letter-spacing: 0.5px;
+color: #9C9C9C;
+opacity: 1
+}
+
+
+.div2
+{
+	margin-left:2.4em;
+	margin-right: 4em;
+	margin-top: -0.9em;
+	
+}
+
+::placeholder {
+	text-align: left;
+font: normal normal 300 10px/13px Poppins;
+letter-spacing: 0.5px;
+color:black;
+opacity: 1;
+  }
+
+ 
+  
