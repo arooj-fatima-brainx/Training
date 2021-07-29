@@ -1,3 +1,8 @@
+html
+{
+	height: 100%;
+	width:100%;
+}
 body
 {	
 	height: 100%;
@@ -5,8 +10,8 @@ body
 	background: transparent url('img/background-illustration.svg') no-repeat 0% 0% padding-box;
 	opacity: 1;
 	font-family: Poppins;
-	align-content: center;
-	align-self: center;
+	/* align-content: center;
+	align-self: center; */
 	background-size: cover;
 	background-position: center;
 	margin:auto;
@@ -16,28 +21,35 @@ body
 	content: "";
 	clear: both;
 	display: table;
+	margin:auto; 
+	width:100%
   }
 .logo
 {
-	margin-top: 0.9%;
+	
 	margin-left: 5%;
 }
 
 .huntBtn
-{
-	width: 142px;
-	height: 50px;
-	background: #FED45C 0% 0% no-repeat padding-box;
-	box-shadow: 5px 5px 6px #00000021;
-	border-radius: 6px;
-	opacity: 1;
-	font: normal normal 600 15px/23px Poppins, bold;
-	letter-spacing: 0.75px;
-	color: #0C2242;
+	{
+		
+		background: #FED45C 0% 0% no-repeat padding-box;
+		box-shadow: 5px 5px 6px #00000021;
+		border-radius: 6px;
+		
+		font: normal normal 600 15px/23px Poppins, bold;
+		letter-spacing: 0.75px;
+		color: #0C2242;
+	
+		margin-right: 6%;
+		margin-top: 2%;
 
-	margin-right: 10%;
-	margin-top: 2%;
-}
+		float:right;
+		display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
 
 
 .welcome
@@ -49,6 +61,7 @@ body
 	color: #EB6874;
 	text-transform: uppercase;
 	opacity: 0.8;
+	margin-top: 0%;
 	
 }
 
@@ -60,20 +73,24 @@ body
 	color: #0C2242;
 	opacity: 1;
 	font-weight: bolder;
+	margin-top: 0.5%;
+	font-size: 2.5em;
+	
 }
 
 .myhr
 {
 	border: 3px solid #0C22426B;
-	width: 41px;
-height: 0px;
+	width: 42px;
 
 }
 
 .card
 {
+	text-align: center;
+	padding: 24px 42px;
 	width: 449px;
-	height: 460px;
+	/* height: 460px; */
 	background: #F2ECEA 0% 0% no-repeat padding-box;
 	box-shadow: 5px 5px 10px #00000029;
 	border: 1px solid #7070702E;
@@ -81,28 +98,29 @@ height: 0px;
 	opacity: 1;
 	margin-left: auto;
 	margin-right: auto;
-	align-self: center;
-	align-content: center;
+	/* align-self: center;
+	align-content: center; */
 	
 }
 
-.lbl1
+.lbl
 {
-	top: 25px;
-left: 45px;
-text-align: center;
+
+	top: 8px;
+left: 80px;
+/* text-align: center; */
 font: normal normal bold 12px/13px Poppins;
 letter-spacing: 0.6px;
 color: #EB6874;
 opacity: 1;
-position:relative;
+position:absolute;
 background-color: #F2ECEA;
 z-index: 1;
 padding-left: 5px;
 padding-right: 5px;
 }
 
-.inp1
+.inp
 {
 	width: 366px;
 	height: 57px;
@@ -119,7 +137,7 @@ padding-right: 5px;
 }
 
 
-.butn
+.continueButton
 {
 	
 width: 370px;
@@ -134,10 +152,9 @@ text-align: center;
 font: normal normal 600 15px/24px Poppins;
 letter-spacing: 3px;
 color: #FFFFFF;
-margin-left: 39px;
+/* margin-left: 39px; */
 cursor:pointer;
 }
-
 
   li a {
 	display: block;
@@ -177,10 +194,10 @@ opacity: 1
 
 .div2
 {
-	margin-left:2.4em;
-	margin-right: 4em;
-	margin-top: -0.9em;
-	
+	/* margin-left:2.4em;
+	margin-right: 4em; */
+	margin-top: 0.5em;
+	position:relative;
 }
 
 ::placeholder {
@@ -191,5 +208,142 @@ color:black;
 opacity: 1;
   }
 
+
+
+
+
+
+
+
+
  
-  
+ 
+  @media only screen and (max-width:768px){
+	.logo
+	{
+		
+		margin-left: 5%;
+		width:30%;
+	}
+	
+	
+
+	.huntBtn
+	{
+		width: 90px;
+		height: 40px;
+		font: normal normal 600 10px/15px Poppins, bold;
+
+		margin-right: 1%;
+		margin-top: 10px;
+
+		background: none;
+		box-shadow: none;
+		text-decoration: underline;
+		color: #EB6874;
+		padding:0px 0px;
+		
+	}
+
+	
+
+	
+
+	.welcome
+{
+	font: normal normal 600 10px/15px Poppins;
+	letter-spacing: 2px;
+	color: #EB6874;
+	text-transform: uppercase;
+	opacity: 1;
+	margin-top: 3%;
+	
+}
+
+.myhr
+{
+	border: 1px solid #0C22426B;
+	width: 30px;
+
+}
+
+.insHunting
+{
+	
+	letter-spacing: 1px;
+	color: #0C2242;
+	margin-top: -1.5%;
+	font-size: 1.2em;
+	
+}
+
+.card
+{
+	width: 170px;
+	/* height: 300px; */
+}
+
+.inp
+{
+	width: 175px;
+	height: 35px;
+	border-radius: 10px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	
+}
+
+.continueButton
+{
+	
+width: 180px;
+height: 35px;
+
+box-shadow: 2px 2px 5px #00000029;
+border: 1px solid #70707045;
+border-radius: 10px;
+
+font: normal normal 600 10px/12px Poppins;
+letter-spacing: 0.8px;
+
+
+margin-top: 10px;
+
+}
+
+.lbl
+{
+	top: -3px;
+left: 16px;
+font: normal normal bold 7px/13px Poppins;
+letter-spacing: 0.4px;
+padding-left: 3px;
+padding-right: 3px;
+}
+/* li
+{
+	display: inline;
+} */
+::placeholder {
+	
+font: normal normal 300 8px/13px Poppins;
+letter-spacing: 0.3px;
+
+  }
+
+
+  body
+  {
+	background-size: inherit;
+  }
+/* .heading2
+{
+	display: none;
+} */
+/* #something-awesome {
+	&:before {
+	  content: "This is some great text here.";
+	}
+  } */
+
+	  }

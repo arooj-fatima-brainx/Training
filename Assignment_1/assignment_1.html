@@ -3,7 +3,9 @@
 
 <head>
     <title>Assignment 1</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <style>
@@ -13,44 +15,43 @@
 </head>
 
 <body>
-    <header style="margin:auto; width:100%" class="clearfix">
-    <div >
-        <ul style="list-style-type: none;">
-            <li class="logo" style="float: left;"><img src="img/logo-png.png" alt="MY HUNTER IMAGE"></li>
-            <li class="huntBtn" style="float: right;"><a href="#about" type="button">My Hunter</a></li>
+    
+    <header class="clearfix">
+        
+            <img src="img/logo-png.png" alt="MY HUNTER IMAGE" class="logo"></li>
+            <a href="#about" type="button" class="huntBtn">My Hunter</a>
 
-        </ul> 
-    </div>
+         
 </header>
 
 
-<section>
+<section style="text-align: center;">
     <div>
         <p class="welcome">WELCOME TO CANADA'S BEST</p>
     
     <hr class="myhr">
         <p class="insHunting">Insurance Hunting</p>
-        <p class="insHunting" style="margin-top: -30px;">Marketplace.</p>
+        <p class="insHunting heading2" style="margin-top: -30px;">Marketplace.</p>
     </div>
 
     <div class="card">
 
         <div class="div2">
-            <label for="postalCode" class="lbl1">Postal Code</label>
-            <input name="postalCode" type="text" class="inp1" placeholder="Used to provide an accurate quote">
+            <label for="postalCode" class="lbl">Postal Code</label>
+            <input name="postalCode" type="text" class="inp" placeholder="Used to provide an accurate quote">
 
         </div>
         <div class="div2">
-            <label for="phoneNO" class="lbl1">Phone No</label>
-            <input name="phoneNO" type="text" class="inp1" placeholder="So we can contact you">
+            <label for="phoneNO" class="lbl">Phone No</label>
+            <input name="phoneNO" type="text" class="inp" placeholder="So we can contact you">
         </div>
         <div class="div2">
-            <label for="email" class="lbl1">Email</label>
-            <input name="email" type="text" class="inp1" placeholder="This will be your login info">
+            <label for="email" class="lbl">Email</label>
+            <input name="email" type="text" class="inp" placeholder="This will be your login info">
         </div>
         <div class="div2">
-            <label for="insuranceType" class="lbl1">Insurace Type</label>
-            <select class="inp1" placeholder="Select any">
+            <label for="insuranceType" class="lbl">Insurace Type</label>
+            <select class="inp" placeholder="Select any">
                 <option selected hidden>Select any</option>
                 <option >Option 1</option>
                 <option >Option 2</option>
@@ -59,7 +60,7 @@
         </div>
 
 
-        <button class="butn">
+        <button class="continueButton">
             CONTINUE
         </button>
     </div>
